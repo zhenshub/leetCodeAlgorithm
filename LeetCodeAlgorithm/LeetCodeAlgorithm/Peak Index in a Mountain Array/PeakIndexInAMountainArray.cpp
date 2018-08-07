@@ -14,13 +14,17 @@ class Solution {
     
 public:
     int peakIndexInMountainArray(vector<int>& A) {
-        int mid = (int)A.size() / 2;
+        int left = 0;
+        int right = (int)A.size() - 1;
+        int mid = (left + right) / 2;
         while (A[mid] < A[mid - 1] || A[mid + 1] > A[mid]) {
             if (A[mid] < A[mid - 1]) {
-                mid = (mid - 1) / 2;
+                right = mid - 1;
+                mid = (left + right) / 2;
                 mid = mid > 0 ? mid : mid + 1;
             } else if (A[mid + 1] > A[mid]) {
-                mid = (mid + 1) / 2;
+                left = mid + 1;
+                mid = (int)(A.size() + mid) / 2;
                 mid = mid < A.size() - 1 ? mid : mid - 1;
             }
         }
