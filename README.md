@@ -5,6 +5,11 @@ Practice Algorithm knowledge
 
 ###### copy from haoel`s github
 
+###### My Goal is solve 3 questions;
+| Date | solve |
+|------|-------|
+| 2018.08.07 | #859 #858 #852|
+
 LeetCode
 ========
 
