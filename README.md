@@ -5,7 +5,7 @@ Practice Algorithm knowledge
 
 ###### copy from haoel`s github
 
-###### My Goal is solve 3 questions;
+###### My Goal is solve 3 questions everyday;
 | Date | solve |
 |------|-------|
 | 2018.08.07 | #859 #858 #852|
