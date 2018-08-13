@@ -8,7 +8,8 @@
 
 #include <iostream>
 //#include "BuddyStrings.hpp"
-#include "Most Common Word/MostCommonWord.cpp"
+//#include "Most Common Word/MostCommonWord.cpp"
+#include "Unique Morse Code Words/UniqueMorseCodeWords.cpp"
 #include <string>
 
 using namespace std;
@@ -18,8 +19,14 @@ int main(int argc, const char * argv[]) {
     Solution solution;
 //    bool ret = solution.buddyStrings("abcaa", "abcaa");
 //    cout << (ret ? "true": "false") << endl;
-    vector<string> banned;
+//    vector<string> banned;
 //    banned.insert(banned.begin(), "hit");
-    cout<<solution.mostCommonWord("Bob", banned)<<endl;
+//    cout<<solution.mostCommonWord("Bob", banned)<<endl;
+    vector<string> words;
+    words.push_back("gin");
+    words.push_back("zen");
+    words.push_back("gig");
+    words.push_back("msg");
+    cout<<solution.uniqueMorseRepresentations(words);
     return 0;
 }
