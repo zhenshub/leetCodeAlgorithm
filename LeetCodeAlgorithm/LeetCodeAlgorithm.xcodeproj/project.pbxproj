@@ -11,6 +11,8 @@
 		D01C0F1F21182CAD002132F5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D01C0F1E21182CAD002132F5 /* main.cpp */; };
 		D01C0F2721182CD7002132F5 /* BuddyStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D01C0F2521182CD7002132F5 /* BuddyStrings.cpp */; };
 		D05EE1C02119420F0028FC68 /* PeakIndexInAMountainArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05EE1BF2119420F0028FC68 /* PeakIndexInAMountainArray.cpp */; };
+		D07682522122F09400C00903 /* JewelsAndStones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07682512122F09400C00903 /* JewelsAndStones.cpp */; };
+		D07682542122F76100C00903 /* MaximumAverageSubarryI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07682532122F76100C00903 /* MaximumAverageSubarryI.cpp */; };
 		D0C7236A211A8DD2000823CE /* BackspaceStringCompare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0C72369211A8DD2000823CE /* BackspaceStringCompare.cpp */; };
 		D0C7236D211AE78D000823CE /* MostCommonWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0C7236C211AE78D000823CE /* MostCommonWord.cpp */; };
 		D0F5109521186BF7005ED705 /* MirrorReflection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F5109321186BF7005ED705 /* MirrorReflection.cpp */; };
@@ -35,6 +37,8 @@
 		D01C0F2521182CD7002132F5 /* BuddyStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BuddyStrings.cpp; sourceTree = "<group>"; };
 		D01C0F2621182CD7002132F5 /* BuddyStrings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BuddyStrings.hpp; sourceTree = "<group>"; };
 		D05EE1BF2119420F0028FC68 /* PeakIndexInAMountainArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PeakIndexInAMountainArray.cpp; sourceTree = "<group>"; };
+		D07682512122F09400C00903 /* JewelsAndStones.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JewelsAndStones.cpp; sourceTree = "<group>"; };
+		D07682532122F76100C00903 /* MaximumAverageSubarryI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumAverageSubarryI.cpp; sourceTree = "<group>"; };
 		D0C72369211A8DD2000823CE /* BackspaceStringCompare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BackspaceStringCompare.cpp; sourceTree = "<group>"; };
 		D0C7236C211AE78D000823CE /* MostCommonWord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MostCommonWord.cpp; sourceTree = "<group>"; };
 		D0F5109321186BF7005ED705 /* MirrorReflection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MirrorReflection.cpp; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		D01C0F1D21182CAD002132F5 /* LeetCodeAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				D07682552122FEED00C00903 /* 643. Maximum Average Subarray I */,
+				D07682502122F07500C00903 /* 771. Jewels and Stones */,
 				D011000621218FA600BEC4C5 /* Unique Morse Code Words */,
 				D0C7236B211AE773000823CE /* Most Common Word */,
 				D0C72368211A8D94000823CE /* Backspace String Compare */,
@@ -96,6 +102,22 @@
 				D05EE1BF2119420F0028FC68 /* PeakIndexInAMountainArray.cpp */,
 			);
 			path = "Peak Index in a Mountain Array";
+			sourceTree = "<group>";
+		};
+		D07682502122F07500C00903 /* 771. Jewels and Stones */ = {
+			isa = PBXGroup;
+			children = (
+				D07682512122F09400C00903 /* JewelsAndStones.cpp */,
+			);
+			path = "771. Jewels and Stones";
+			sourceTree = "<group>";
+		};
+		D07682552122FEED00C00903 /* 643. Maximum Average Subarray I */ = {
+			isa = PBXGroup;
+			children = (
+				D07682532122F76100C00903 /* MaximumAverageSubarryI.cpp */,
+			);
+			path = "643. Maximum Average Subarray I";
 			sourceTree = "<group>";
 		};
 		D0C72368211A8D94000823CE /* Backspace String Compare */ = {
@@ -193,6 +215,8 @@
 				D011000821218FFE00BEC4C5 /* UniqueMorseCodeWords.cpp in Sources */,
 				D05EE1C02119420F0028FC68 /* PeakIndexInAMountainArray.cpp in Sources */,
 				D01C0F1F21182CAD002132F5 /* main.cpp in Sources */,
+				D07682542122F76100C00903 /* MaximumAverageSubarryI.cpp in Sources */,
+				D07682522122F09400C00903 /* JewelsAndStones.cpp in Sources */,
 				D01C0F2721182CD7002132F5 /* BuddyStrings.cpp in Sources */,
 				D0C7236D211AE78D000823CE /* MostCommonWord.cpp in Sources */,
 			);

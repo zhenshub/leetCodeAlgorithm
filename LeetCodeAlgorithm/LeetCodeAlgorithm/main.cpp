@@ -9,7 +9,8 @@
 #include <iostream>
 //#include "BuddyStrings.hpp"
 //#include "Most Common Word/MostCommonWord.cpp"
-#include "Unique Morse Code Words/UniqueMorseCodeWords.cpp"
+//#include "Unique Morse Code Words/UniqueMorseCodeWords.cpp"
+#include "MaximumAverageSubarryI.cpp"
 #include <string>
 
 using namespace std;
@@ -22,11 +23,14 @@ int main(int argc, const char * argv[]) {
 //    vector<string> banned;
 //    banned.insert(banned.begin(), "hit");
 //    cout<<solution.mostCommonWord("Bob", banned)<<endl;
-    vector<string> words;
-    words.push_back("gin");
-    words.push_back("zen");
-    words.push_back("gig");
-    words.push_back("msg");
-    cout<<solution.uniqueMorseRepresentations(words);
+//    vector<string> words;
+//    words.push_back("gin");
+//    words.push_back("zen");
+//    words.push_back("gig");
+//    words.push_back("msg");
+//    cout<<solution.uniqueMorseRepresentations(words);
+    int a[] = {1,12,-5,-6,50,3};
+    vector<int> arr(a, a+6);
+    cout<<solution.findMaxAverage(arr, 4);
     return 0;
 }
