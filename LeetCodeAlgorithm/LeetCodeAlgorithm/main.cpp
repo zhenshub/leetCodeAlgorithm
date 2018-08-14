@@ -10,7 +10,7 @@
 //#include "BuddyStrings.hpp"
 //#include "Most Common Word/MostCommonWord.cpp"
 //#include "Unique Morse Code Words/UniqueMorseCodeWords.cpp"
-#include "MaximumAverageSubarryI.cpp"
+#include "643. Maximum Average Subarray I/MaximumAverageSubarryI.cpp"
 #include <string>
 
 using namespace std;
