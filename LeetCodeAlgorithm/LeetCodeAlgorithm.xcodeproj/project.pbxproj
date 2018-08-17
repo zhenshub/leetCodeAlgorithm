@@ -15,6 +15,7 @@
 		D07682542122F76100C00903 /* MaximumAverageSubarryI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07682532122F76100C00903 /* MaximumAverageSubarryI.cpp */; };
 		D0C7236A211A8DD2000823CE /* BackspaceStringCompare.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0C72369211A8DD2000823CE /* BackspaceStringCompare.cpp */; };
 		D0C7236D211AE78D000823CE /* MostCommonWord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0C7236C211AE78D000823CE /* MostCommonWord.cpp */; };
+		D0EA01D0212665B700574994 /* TotalHammingDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0EA01CF212665B700574994 /* TotalHammingDistance.cpp */; };
 		D0F5109521186BF7005ED705 /* MirrorReflection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0F5109321186BF7005ED705 /* MirrorReflection.cpp */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		D07682532122F76100C00903 /* MaximumAverageSubarryI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumAverageSubarryI.cpp; sourceTree = "<group>"; };
 		D0C72369211A8DD2000823CE /* BackspaceStringCompare.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BackspaceStringCompare.cpp; sourceTree = "<group>"; };
 		D0C7236C211AE78D000823CE /* MostCommonWord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MostCommonWord.cpp; sourceTree = "<group>"; };
+		D0EA01CF212665B700574994 /* TotalHammingDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TotalHammingDistance.cpp; sourceTree = "<group>"; };
 		D0F5109321186BF7005ED705 /* MirrorReflection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MirrorReflection.cpp; sourceTree = "<group>"; };
 		D0F5109421186BF7005ED705 /* MirrorReflection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MirrorReflection.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 		D01C0F1D21182CAD002132F5 /* LeetCodeAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				D0EA01CE2126659100574994 /* 477. Total Hamming Distance */,
 				D07682552122FEED00C00903 /* 643. Maximum Average Subarray I */,
 				D07682502122F07500C00903 /* 771. Jewels and Stones */,
 				D011000621218FA600BEC4C5 /* Unique Morse Code Words */,
@@ -134,6 +137,14 @@
 				D0C7236C211AE78D000823CE /* MostCommonWord.cpp */,
 			);
 			path = "Most Common Word";
+			sourceTree = "<group>";
+		};
+		D0EA01CE2126659100574994 /* 477. Total Hamming Distance */ = {
+			isa = PBXGroup;
+			children = (
+				D0EA01CF212665B700574994 /* TotalHammingDistance.cpp */,
+			);
+			path = "477. Total Hamming Distance";
 			sourceTree = "<group>";
 		};
 		D0F5109121186B7B005ED705 /* Buddy Strings */ = {
@@ -215,6 +226,7 @@
 				D011000821218FFE00BEC4C5 /* UniqueMorseCodeWords.cpp in Sources */,
 				D05EE1C02119420F0028FC68 /* PeakIndexInAMountainArray.cpp in Sources */,
 				D01C0F1F21182CAD002132F5 /* main.cpp in Sources */,
+				D0EA01D0212665B700574994 /* TotalHammingDistance.cpp in Sources */,
 				D07682542122F76100C00903 /* MaximumAverageSubarryI.cpp in Sources */,
 				D07682522122F09400C00903 /* JewelsAndStones.cpp in Sources */,
 				D01C0F2721182CD7002132F5 /* BuddyStrings.cpp in Sources */,
